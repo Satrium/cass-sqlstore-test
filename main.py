@@ -4,7 +4,7 @@ from cassiopeia.core import Summoner, Account, Match, League, ChampionMasteries,
 from cassiopeia._configuration import settings
 from cassiopeia.data import Platform, Queue
 
-constant = __import__("cassiopeia-sqlstore").common.Constant
+from cassiopeia_sqlstore.common import Constant
 
 desired_name_length = 30
 
@@ -32,15 +32,13 @@ def get_sqlstore():
         "pipeline":{
             "SQLStore":{
                 "connection_string":"postgres://cassio:cassio@localhost/cassio",
-                "package":"cassiopeia-sqlstore.SQLStore",
+                "package":"cassiopeia_sqlstore.SQLStore",
                 "debug":False
             },
             "DDragon":{},
             "RiotAPI":{}
         }
     })
-    cass.set_riot_api_key("***REMOVED***")
-    #cass.set_riot_api_key("***REMOVED***") #Dev Key
     cass.set_default_region("EUW")
     settings = cass.configuration._settings
     for source in settings.pipeline._sources:

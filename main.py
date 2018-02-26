@@ -148,6 +148,10 @@ def check_league(sqlstore):
     check_get(sqlstore.get_league_positions, {"summoner.id":34918968}, "get_league_positions")
     check_put(sqlstore.put_league, "mock/league.json", "put_league_list")
     check_get(sqlstore.get_league, {"id":"de6e5560-fe24-11e7-b5a5-c81f66dd0e0d"}, "get_league")
+    check_put(sqlstore.put_league, "mock/challenger.json", "put_challenger_league")
+    check_get(sqlstore.get_challenger_league,{"queue":Queue.ranked_solo_fives}, "get_challenger_league")
+    check_put(sqlstore.put_league, "mock/masters.json", "put_master_league")
+    check_get(sqlstore.get_master_league,{"queue":Queue.ranked_solo_fives},"get_master_league")
 
 @title("Lol-Status endpoint")
 def check_lol_status(sqlstore):

@@ -1,0 +1,297 @@
+{
+"gameId": 3538810402,
+"mapId": 11,
+"gameMode": "CLASSIC",
+"gameType": "MATCHED_GAME",
+"gameQueueConfigId": 420,
+"participants": [
+{
+"teamId": 100,
+"spell1Id": 4,
+"spell2Id": 14,
+"championId": 45,
+"profileIconId": 3163,
+"summonerName": "Choupko",
+"bot": false,
+"summonerId": 55728391,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8229,
+8224,
+8210,
+8237,
+8321,
+8347
+],
+"perkStyle": 8200,
+"perkSubStyle": 8300
+}
+},
+{
+"teamId": 100,
+"spell1Id": 4,
+"spell2Id": 7,
+"championId": 222,
+"profileIconId": 3015,
+"summonerName": "mforcee",
+"bot": false,
+"summonerId": 24289682,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8021,
+9111,
+9104,
+8014,
+8236,
+8234
+],
+"perkStyle": 8000,
+"perkSubStyle": 8200
+}
+},
+{
+"teamId": 100,
+"spell1Id": 3,
+"spell2Id": 4,
+"championId": 99,
+"profileIconId": 659,
+"summonerName": "Charlie87",
+"bot": false,
+"summonerId": 32190525,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8214,
+8226,
+8210,
+8237,
+8313,
+8347
+],
+"perkStyle": 8200,
+"perkSubStyle": 8300
+}
+},
+{
+"teamId": 100,
+"spell1Id": 4,
+"spell2Id": 11,
+"championId": 19,
+"profileIconId": 682,
+"summonerName": "Annoying Orange",
+"bot": false,
+"summonerId": 86787825,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8124,
+8139,
+8138,
+8135,
+9111,
+8014
+],
+"perkStyle": 8100,
+"perkSubStyle": 8000
+}
+},
+{
+"teamId": 100,
+"spell1Id": 4,
+"spell2Id": 12,
+"championId": 36,
+"profileIconId": 27,
+"summonerName": "souner",
+"bot": false,
+"summonerId": 22412667,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8437,
+8446,
+8429,
+8451,
+8243,
+8210
+],
+"perkStyle": 8400,
+"perkSubStyle": 8200
+}
+},
+{
+"teamId": 200,
+"spell1Id": 3,
+"spell2Id": 4,
+"championId": 497,
+"profileIconId": 3015,
+"summonerName": "omarputo",
+"bot": false,
+"summonerId": 84186829,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8465,
+8463,
+8429,
+8453,
+8243,
+8210
+],
+"perkStyle": 8400,
+"perkSubStyle": 8200
+}
+},
+{
+"teamId": 200,
+"spell1Id": 4,
+"spell2Id": 12,
+"championId": 150,
+"profileIconId": 3159,
+"summonerName": "jejedlanight",
+"bot": false,
+"summonerId": 40520268,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8214,
+8224,
+8210,
+8237,
+8430,
+8444
+],
+"perkStyle": 8200,
+"perkSubStyle": 8400
+}
+},
+{
+"teamId": 200,
+"spell1Id": 4,
+"spell2Id": 11,
+"championId": 113,
+"profileIconId": 3233,
+"summonerName": "UnityRaidz",
+"bot": false,
+"summonerId": 83776941,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8437,
+8242,
+8430,
+8451,
+8224,
+8237
+],
+"perkStyle": 8400,
+"perkSubStyle": 8200
+}
+},
+{
+"teamId": 200,
+"spell1Id": 14,
+"spell2Id": 4,
+"championId": 238,
+"profileIconId": 938,
+"summonerName": "Fabians99",
+"bot": false,
+"summonerId": 90918340,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8112,
+8143,
+8138,
+8105,
+9111,
+8014
+],
+"perkStyle": 8100,
+"perkSubStyle": 8000
+}
+},
+{
+"teamId": 200,
+"spell1Id": 7,
+"spell2Id": 4,
+"championId": 202,
+"profileIconId": 3368,
+"summonerName": "erkebabbaro27",
+"bot": false,
+"summonerId": 60671130,
+"gameCustomizationObjects": [],
+"perks": {
+"perkIds": [
+8128,
+8126,
+8138,
+8135,
+8226,
+8237
+],
+"perkStyle": 8100,
+"perkSubStyle": 8200
+}
+}
+],
+"observers": {
+"encryptionKey": "+tBNZgZqtefHSnwMeJLsnBoP/ujBEn3q"
+},
+"platformId": "EUW1",
+"bannedChampions": [
+{
+"championId": 420,
+"teamId": 100,
+"pickTurn": 1
+},
+{
+"championId": 67,
+"teamId": 100,
+"pickTurn": 2
+},
+{
+"championId": 157,
+"teamId": 100,
+"pickTurn": 3
+},
+{
+"championId": 102,
+"teamId": 100,
+"pickTurn": 4
+},
+{
+"championId": 51,
+"teamId": 100,
+"pickTurn": 5
+},
+{
+"championId": 33,
+"teamId": 200,
+"pickTurn": 6
+},
+{
+"championId": 41,
+"teamId": 200,
+"pickTurn": 7
+},
+{
+"championId": 89,
+"teamId": 200,
+"pickTurn": 8
+},
+{
+"championId": 105,
+"teamId": 200,
+"pickTurn": 9
+},
+{
+"championId": 67,
+"teamId": 200,
+"pickTurn": 10
+}
+],
+"gameStartTime": 1519158095079,
+"gameLength": 1290
+}

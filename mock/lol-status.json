@@ -1,0 +1,115 @@
+{
+"name": "EU West",
+"slug": "euw",
+"locales": [
+"en_GB",
+"fr_FR",
+"it_IT",
+"es_ES",
+"de_DE"
+],
+"hostname": "prod.euw1.lol.riotgames.com",
+"region_tag": "eu",
+"services": [
+{
+"name": "Game",
+"slug": "game",
+"status": "online",
+"incidents": [
+{
+"id": 7089,
+"active": true,
+"created_at": "2018-02-05T07:13:23.234Z",
+"updates": [
+{
+"id": "5a7804139b64ac01003aedca",
+"author": "",
+"content": "We have disabled Mecha Kha'Zix due to in game issues, and are currently working on a resolution.",
+"severity": "info",
+"created_at": "2018-02-05T07:13:23.234Z",
+"updated_at": "2018-02-08T22:12:05.459Z",
+"translations": [
+{
+"locale": "fr_FR",
+"heading": "Problèmes liés à la Sélection des champions",
+"content": "Nous avons désactivé Mecha Kha'Zix à cause de bugs constatés en jeu, et nous travaillons actuellement à résoudre ces problèmes."
+},
+{
+"locale": "de_DE",
+"heading": "Probleme mit der Championauswahl",
+"content": "Aufgrund von Problemen im Spiel haben wir Mecha-Kha'Zix deaktiviert. Wir arbeiten derzeit an einer Lösung der Probleme."
+},
+{
+"locale": "it_IT",
+"heading": "Problemi nella selezione del campione",
+"content": "Abbiamo disabilitato Mecha Kha'Zix a causa di bug di gioco e stiamo lavorando per trovare una soluzione."
+},
+{
+"locale": "es_ES",
+"heading": "Problemas con la selección de campeón",
+"content": "Hemos deshabilitado a Kha'Zix mecha debido a problemas en el juego, y estamos trabajando en una solución."
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "Store",
+"slug": "store",
+"status": "online",
+"incidents": []
+},
+{
+"name": "Website",
+"slug": "website",
+"status": "online",
+"incidents": []
+},
+{
+"name": "Client",
+"slug": "client",
+"status": "online",
+"incidents": [
+{
+"id": 7112,
+"active": true,
+"created_at": "2018-02-06T04:56:25.839Z",
+"updates": [
+{
+"id": "5a7935799b64ac01003c94a9",
+"author": "",
+"content": "We have temporarily disabled the skins tab due to a bug and are working on a fix",
+"severity": "warn",
+"created_at": "2018-02-06T04:56:25.839Z",
+"updated_at": "2018-02-08T22:12:07.765Z",
+"translations": [
+{
+"locale": "fr_FR",
+"heading": "",
+"content": "L'onglet des skins a été temporairement désactivé en raison d'un bug. Nous travaillons actuellement à le corriger."
+},
+{
+"locale": "de_DE",
+"heading": "",
+"content": "Wir haben den Skins-Reiter aufgrund eines Fehlers vorübergehend deaktiviert und arbeiten momentan an einer Lösung."
+},
+{
+"locale": "it_IT",
+"heading": "",
+"content": "Abbiamo temporaneamente disabilitato la scheda Aspetti a causa di un bug e stiamo lavorando a una soluzione."
+},
+{
+"locale": "es_ES",
+"heading": "",
+"content": "Hemos desactivado temporalmente la pestaña de aspectos debido a un error que estamos tratando de solucionar."
+}
+]
+}
+]
+}
+]
+}
+]
+}

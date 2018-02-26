@@ -1,0 +1,117 @@
+{
+"region":"EUW",
+"champions": [
+{
+"id": 51,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 202,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 236,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 117,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 54,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 90,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 25,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 80,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 58,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 14,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 72,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": false,
+"rankedPlayEnabled": true
+},
+{
+"id": 37,
+"active": true,
+"botEnabled": false,
+"freeToPlay": true,
+"botMmEnabled": false,
+"rankedPlayEnabled": true
+},
+{
+"id": 48,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+},
+{
+"id": 8,
+"active": true,
+"botEnabled": true,
+"freeToPlay": true,
+"botMmEnabled": true,
+"rankedPlayEnabled": true
+}
+]
+}

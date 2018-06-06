@@ -101,10 +101,12 @@ def check_get(function, query, name):
 
 @title("Summoner endpoint")
 def check_summoner(sqlstore):
-    check_put(sqlstore.put_summoner, "mock/summoner.json")
+    check_put(sqlstore.put_summoner, "mock/summoner.json")    
     check_get(sqlstore.get_summoner, {"id":34918968}, "get_summoner_by_id")
     check_get(sqlstore.get_summoner, {"name":"Satrium"}, "get_summoner_by_name")
     check_get(sqlstore.get_summoner, {"account.id":38073405}, "get_summoner_by_accountid")
+    check_put(sqlstore.put_summoner, "mock/summoner_large_accountid.json")
+    check_get(sqlstore.get_summoner, {"id":20182777, "platform":Platform.turkey}, "get_summoner_by_id")
 
 @title("Match endpoint")
 def check_match(sqlstore):
@@ -115,6 +117,9 @@ def check_match(sqlstore):
     check_get(sqlstore.get_match, {"id":3534904584}, "get_match_ranked")
     check_put(sqlstore.put_match, "mock/aram01.json", "put_aram","put_match_second")
     check_get(sqlstore.get_match, {"id":3537608767}, "get_match_aram")
+
+    check_put(sqlstore.put_match, "mock/match_large_accountid.json")
+    check_get(sqlstore.get_match, {"id":713677246,"platform":Platform.turkey}, "get_match")
 
     check_put(sqlstore.put_timeline, "mock/timeline01.json", "put_first_timeline")
     check_put(sqlstore.put_timeline, "mock/timeline02.json", "put_second_timeline")
